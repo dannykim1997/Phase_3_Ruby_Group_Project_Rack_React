@@ -54,7 +54,7 @@ class App extends React.Component {
       <header>🔥🔥🔥litnight🔥🔥🔥</header>
       <div>
         <form className="form">
-          <select onChange={(e) => this.sort(e)}>
+          <select onChange={(e) => this.sort(e)} className="custom-select">
             <option value="events">default</option>
             <option value="dates">sort by dates</option>
             <option value="high"> sort by price high</option>
@@ -62,11 +62,6 @@ class App extends React.Component {
             <option value="max">most popular attraction</option>
             <option value="min">least popular attraction</option>
           </select>
-          {/* <select onChange={(e) => this.selected(e)}>
-          <option value="default">default</option>
-            <option value="max">most popular attraction</option>
-            <option value="min">least popular attraction</option>
-          </select> */}
         </form>
       </div>
       <div>

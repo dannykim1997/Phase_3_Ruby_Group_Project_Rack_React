@@ -1,37 +1,47 @@
 header {
-  background-color: #9a48d0;
+  /* background-color: #9a48d0; */
+  background-color: #33415c;
   text-align: center;
-  font-size: 40pt;
-  color: white;
+  font-size: 50pt;
+  color: orange;
   font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 50px
 }
 
 .form {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
-  background-color: red;
+  /* background-color: #9a48d0; */
+  background-color: #5c677d;
 }
 
-select {
-  width: 400px;
-  font-size: 15pt;
+.custom-select {
+  width: 350px;
+  font-size: 18pt;
   align-content: center;
-  background-color: white;
+  font-weight: bold;
+  position: relative;
+  cursor:pointer;
+  border-radius: 20px;
+  border-width: thick;
+  border-color:orange;
 }
 
 .card {
   width: 500px;
   height: 500px;
   max-height: 500px;
-  display:inline-grid; 
+  display: grid;
   border-style:solid;
-  border-radius: 50px;
-  position:static;
+  border-radius: 20px;
+  margin-top: 1%;
   margin-left: 1%;
   margin-right: 1%;
   margin-bottom: 1%;
-  background-color: white;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  cursor: context-menu;
 }
 
 .images {
@@ -40,23 +50,30 @@ select {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #33415c;
+
 }
 
 .container {
   padding-top: 50px;
-  background-color: white;
   text-align:center;
   padding-bottom: 50px;
-  background-color:wheat;
-  /* display: flex;  
+  background-color:#7d8597;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; */
+  justify-content: center;
 }
 
 .info {
   font-size: 12pt;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 50px
 }
 
-/* .modal {
-  position:absolute;
-} */
+.links {
+  padding-top: 150px;
+  font-size:20pt
+}
