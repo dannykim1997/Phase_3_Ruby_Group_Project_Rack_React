@@ -42,6 +42,7 @@ header {
   margin-bottom: 1%;
   background-image: linear-gradient(to bottom right, red, yellow);
   cursor: context-menu;
+  padding-bottom: 20px;
 }
 
 .images {
